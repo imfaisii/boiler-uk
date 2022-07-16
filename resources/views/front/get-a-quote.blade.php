@@ -55,6 +55,7 @@
                             <div class="step">
                                 <h3 class="main_question"><strong>1/5</strong>Please fill with your details</h3>
                                 <div class="form-group">
+                                    <p>Postal Code</p>
                                     <input type="text" name="postal_code" class="form-control required"
                                         placeholder="PX-1000">
                                 </div>
@@ -250,14 +251,17 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
+                                            <p>Your Full Name</p>
                                             <input type="text" name="name" class="form-control required"
                                                 placeholder="Full Name">
                                         </div>
                                         <div class="form-group">
+                                            <p>Your Email Address</p>
                                             <input type="email" name="email" class="form-control required"
                                                 placeholder="Your Email">
                                         </div>
                                         <div class="form-group">
+                                            <p>Your Contact Number</p>
                                             <input type="number" name="phone_number" class="form-control required"
                                                 placeholder="+44123456789">
                                         </div>
