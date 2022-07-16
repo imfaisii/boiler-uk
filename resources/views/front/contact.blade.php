@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.front.app')
 @push('extended-css')
     <link href="{{ asset('assets/css/toastr.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('assets/css/ext-toastr.css') }}" rel="stylesheet" />
