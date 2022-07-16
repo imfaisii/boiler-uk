@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="#">
 <meta name="author" content="Faisal Ashfaq">
-<title>{{ config('app.name') | ucwords(last(request()->segments())) }}</title>
+<title>{{ ucwords(last(request()->segments())) . ' | ' . config('app.name') }}</title>
 
 <!-- Favicons-->
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
