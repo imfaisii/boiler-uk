@@ -5,7 +5,7 @@
 <meta name="description" content="UK GEYSERS">
 
 <!-- ========== Page Title ========== -->
-<title>{{ ucwords(last(request()->segments())) . ' | ' . config('app.name') }}</title>
+<title>{{ ucwords(last(request()->segments())) . ' - ' . config('app.name') }}</title>
 
 <!-- ========== Favicon Icon ========== -->
 <link rel="shortcut icon" href="{{ asset('assets/img/favicon.png') }}" type="image/x-icon">

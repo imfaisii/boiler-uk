@@ -2,23 +2,22 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ContactFormRequest;
-use App\Mail\ContactMail;
+use App\Http\Requests\QuoteRequest;
+use App\Mail\QuoteMail;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
-class ContactController extends Controller
+class QuoteController extends Controller
 {
     public function index()
     {
-        return view('front.contact');
+        return view('front.get-a-quote');
     }
-
-    public function submit(ContactFormRequest $request)
+    public function submit(QuoteRequest $request)
     {
         try {
-            Mail::to(config('app.admin.emails'))->send(new ContactMail($request->validated()));
+            Mail::to(config('app.admin.emails'))->send(new QuoteMail($request->validated()));
 
             return back()->withStatus("Email sent successfully.");
         } catch (Exception $exception) {

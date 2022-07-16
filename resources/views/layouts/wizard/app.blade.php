@@ -3,6 +3,7 @@
 
 <head>
     @include('partials.wizard.styles')
+    @stack('extended-css')
 </head>
 
 <body>
@@ -72,6 +73,7 @@
     <!-- /.modal -->
 
     @include('partials.wizard.scripts')
+    @stack('extended-js')
 
 </body>
 

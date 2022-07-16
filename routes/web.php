@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\QuoteController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,7 +20,8 @@ Route::view('/', 'front.home')->name('front.home');
 
 // Contact
 Route::get('/contact-us', [ContactController::class, 'index'])->name('front.contact');
-Route::post('/contact-us', [ContactController::class, 'send'])->name('front.contact.send');
+Route::post('/contact-us', [ContactController::class, 'submit'])->name('front.contact.submit');
 
 // Get a Quote View
-Route::view('/get-a-quote', 'front.get-a-quote')->name('front.get-a-quote');
+Route::get('/get-a-quote', [QuoteController::class, 'index'])->name('front.get-a-quote');
+Route::post('/get-a-quote', [QuoteController::class, 'submit'])->name('front.get-a-quote.submit');

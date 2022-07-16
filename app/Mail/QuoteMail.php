@@ -1,4 +1,3 @@
-
 <?php
 
 namespace App\Mail;
@@ -8,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class ContactMail extends Mailable
+class QuoteMail extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -32,8 +31,8 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->subject("Contact Query")
+        return $this->subject("New Quote")
             ->from(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'))
-            ->view('mails.contact-mail');
+            ->view('mails.quote-mail');
     }
 }

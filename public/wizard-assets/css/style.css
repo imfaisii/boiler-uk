@@ -1,9 +1,4 @@
 /*
-Theme Name: Wilio
-Theme URI: http://www.ansonika.com/wilio/
-Author: Ansonika
-Author URI: http://themeforest.net/user/Ansonika/
-
 [Table of contents] 
 
 1. SITE STRUCTURE and TYPOGRAPHY
@@ -89,7 +84,7 @@ ul, ol {
 
 /*General links color*/
 a {
-  color: #434bdf;
+  color: #f35a38;
   text-decoration: none;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -121,7 +116,7 @@ a.animated_link:before {
   bottom: -5px;
   opacity: 1;
   left: 0;
-  background-color: #434bdf;
+  background-color: #f35a38;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -140,7 +135,7 @@ a.animated_link:hover:before {
 a.animated_link.active {
   position: relative;
   text-decoration: none;
-  color: #434bdf;
+  color: #f35a38;
 }
 a.animated_link.active:before {
   content: "";
@@ -150,7 +145,7 @@ a.animated_link.active:before {
   bottom: -5px;
   opacity: 1;
   left: 0;
-  background-color: #434bdf;
+  background-color: #f35a38;
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -161,7 +156,7 @@ a.btn_1,
 .btn_1 {
   border: none;
   color: #fff;
-  background: #434bdf;
+  background: #f35a38;
   outline: none;
   cursor: pointer;
   display: inline-block;
@@ -357,7 +352,7 @@ a.btn_1.rounded,
 }
 
 .content-left {
-  background-color: #434bdf;
+  background-color: #f35a38;
   padding: 0;
 }
 
@@ -369,7 +364,7 @@ a.btn_1.rounded,
   height: 100%;
   min-height: 100%;
   padding: 60px 90px 35px 90px;
-  background-color: #434bdf;
+  background-color: #f35a38;
   color: #fff;
   text-align: center;
   position: relative;
@@ -576,7 +571,7 @@ button.submit {
   cursor: pointer;
   outline: none;
   text-align: center;
-  background: #434bdf;
+  background: #f35a38;
   position: relative;
   font-size: 14px;
   font-size: 0.875rem;
@@ -887,7 +882,7 @@ footer ul li a:hover {
   padding: 0;
   font-size: 42px;
   font-size: 2.625rem;
-  color: #434bdf;
+  color: #f35a38;
   text-transform: uppercase;
 }
 @media (max-width: 767px) {
@@ -924,7 +919,7 @@ footer ul li a:hover {
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #434bdf !important;
+  background: #f35a38 !important;
 }
 
 main#general_page {
@@ -1188,7 +1183,7 @@ span.error:after {
 }
 .form-control:focus {
   box-shadow: none;
-  border-color: #434bdf;
+  border-color: #f35a38;
 }
 
 .rating_wp {
@@ -1224,7 +1219,7 @@ span.error:after {
   font-size: 1rem;
   font-weight: 500 !important;
   font-weight: normal;
-  color: #434bdf;
+  color: #f35a38;
 }
 @media (max-width: 767px) {
   .rating_type {
@@ -1289,7 +1284,7 @@ span.error:after {
   cursor: pointer;
 }
 .container_check input:checked ~ .checkmark {
-  background-color: #434bdf;
+  background-color: #f35a38;
   border: 1px solid transparent;
 }
 .container_check .checkmark {
@@ -1390,7 +1385,7 @@ span.error:after {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #434bdf;
+  background: #f35a38;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1551,7 +1546,7 @@ input[type=file]::-webkit-file-upload-button, input[type=file].invalid::-webkit-
   -ms-border-radius: 3px;
   border-radius: 3px;
   padding: 8px 10px 8px 38px;
-  background: #434bdf url(../img/upload_icon.svg) 8px center no-repeat;
+  background: #f35a38 url(../img/upload_icon.svg) 8px center no-repeat;
   outline: none;
 }
 input[type=file]::-webkit-file-upload-button:focus, input[type=file].invalid::-webkit-file-upload-button:focus, input[type=file].valid::-webkit-file-upload-button:focus {
@@ -1587,7 +1582,7 @@ input[type=file]::-webkit-file-upload-button:focus, input[type=file].invalid::-w
   color: #6c757d;
 }
 .nice-select:active, .nice-select.open, .nice-select:focus {
-  border-color: #434bdf;
+  border-color: #f35a38;
 }
 .nice-select:after {
   border-bottom: 2px solid #cccccc;
@@ -1735,7 +1730,7 @@ input[type=file]::-webkit-file-upload-button:focus, input[type=file].invalid::-w
 .budget_slider span {
   display: block;
   font-weight: 600;
-  color: #434bdf;
+  color: #f35a38;
   font-size: 24px;
   font-size: 1.5rem;
   margin-top: 25px;
@@ -1745,12 +1740,12 @@ input[type=file]::-webkit-file-upload-button:focus, input[type=file].invalid::-w
 }
 
 .rangeslider__handle {
-  border: 2px solid #434bdf !important;
+  border: 2px solid #f35a38 !important;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
 }
 
 .rangeslider__fill {
-  background: #434bdf !important;
+  background: #f35a38 !important;
 }
 
 /*-------- 3.2 Spacing --------*/
