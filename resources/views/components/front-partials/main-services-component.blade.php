@@ -3,17 +3,23 @@
         <div class="container">
             <div class="main-services-box">
                 <div class="row">
-
-                    <div class="left-info col-lg-5">
+                    <div class="left-info col-lg-5 choose-us-style-three">
                         <h5>What we do</h5>
-                        <h2>Let’s Check our scientific <br> Digital solutions</h2>
+                        <h2>We Install Boilers of all makes</h2>
                         <p>
-                            Drawings can followed improved out sociable not. Earnestly so do instantly pretended. See
-                            general few civilly amiable pleased account carried. Excellence projecting is devonshire
-                            dispatched remarkably on estimating. Side in so life past. Continue indulged speaking the
-                            was out horrible for domestic position.
+                            Once you have shown interest in our services. We will arrange a free energy survey of your
+                            property and provide a clear understanding of what can be done in the property to make it
+                            more energy efficient through the available energy grants from the government.
                         </p>
-                        <a class="btn circle btn-dark border btn-md" href="#">Discover More</a>
+                        <p>
+                            <strong>Following benefits are claimable with installation:</strong>
+                        </p>
+                        <ul>
+                            <li>Housing Benefit</li>
+                            <li>Income Based Jobseekers Allowance</li>
+                            <li>Income Related Employment & Support Allowance</li>
+                            <li>Income Support & Pension Credit</li>
+                        </ul>
                     </div>
 
                     <div class="right-info col-lg-7">
@@ -23,13 +29,13 @@
                                 <div class="single-item col-lg-6 col-md-6">
                                     <div class="item">
                                         <div class="icon">
-                                            <i class="fal fa-fingerprint"></i>
+                                            <i class="fa fa-users" aria-hidden="true"></i>
                                         </div>
                                         <div class="info">
-                                            <h4><a href="#">Digital Products</a></h4>
+                                            <h4><a href="#">Experienced Workers</a></h4>
                                             <p>
-                                                Preferred joy agreement put continual felicity elsewhere delivered now
-                                                collect authority.
+                                                Exceptional workers try their best to make a perfect installtion of
+                                                boiler.
                                             </p>
                                         </div>
                                     </div>
@@ -39,13 +45,12 @@
                                 <div class="single-item col-lg-6 col-md-6">
                                     <div class="item">
                                         <div class="icon">
-                                            <i class="fal fa-poll"></i>
+                                            <i class="fa fa-info-circle" aria-hidden="true"></i>
                                         </div>
                                         <div class="info">
-                                            <h4><a href="#">Marketing Strategy</a></h4>
+                                            <h4><a href="#">Gas Safe</a></h4>
                                             <p>
-                                                Preferred joy agreement put continual felicity elsewhere delivered now
-                                                collect authority.
+                                                All of our engineers and installers are Gas Safe Registered ✅.
                                             </p>
                                         </div>
                                     </div>
@@ -58,10 +63,10 @@
                                             <i class="fal fa-bullseye-arrow"></i>
                                         </div>
                                         <div class="info">
-                                            <h4><a href="#">Digital branding</a></h4>
+                                            <h4><a href="#">Eligibility</a></h4>
                                             <p>
-                                                Preferred joy agreement put continual felicity elsewhere delivered now
-                                                collect authority.
+                                                Qualifying homeowners, Flats, Private tenants and Landlords may be
+                                                eligible for this Energy Saving Grant.
                                             </p>
                                         </div>
                                     </div>
@@ -74,10 +79,13 @@
                                             <i class="fal fa-box-full"></i>
                                         </div>
                                         <div class="info">
-                                            <h4><a href="#">Social Media</a></h4>
+                                            <h4><a href="#">Extras</a></h4>
                                             <p>
-                                                Preferred joy agreement put continual felicity elsewhere delivered now
-                                                collect authority.
+                                                You can reach us out again, and we will provide all additional benefits
+                                                of easy replacements and free services.
+                                            <p>
+                                                <a href="#">Terms and conditions apply.</a>
+                                            </p>
                                             </p>
                                         </div>
                                     </div>

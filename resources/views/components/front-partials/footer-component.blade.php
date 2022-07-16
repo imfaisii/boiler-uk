@@ -49,10 +49,10 @@
                         <h4 class="widget-title">Useful Links</h4>
                         <ul>
                             <li>
-                                <a href="#">Get a Quote</a>
+                                <a href="{{ route('front.get-a-quote') }}" target="_blank">Get a Quote</a>
                             </li>
                             <li>
-                                <a href="#">Get In Touch</a>
+                                <a href="{{ route('front.contact') }}">Get In Touch</a>
                             </li>
                         </ul>
                     </div>
@@ -76,7 +76,8 @@
                                 </li>
                                 <li>
                                     <p>Contact</p>
-                                    <strong>+92 349 4684544</strong>
+                                    <strong>+92 349 4684544 </strong>
+                                    <strong>+44 161 621 9970</strong>
                                 </li>
                             </ul>
                         </div>

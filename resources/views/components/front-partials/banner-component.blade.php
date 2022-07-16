@@ -14,7 +14,8 @@
                                         to qualifying properties.
                                     </p>
                                     </p>
-                                    <a href="#" class="btn-animate wow  fadeInLeft" data-wow-duration="600ms">
+                                    <a href="{{ route('front.get-a-quote') }}" class="btn-animate wow fadeInLeft"
+                                        data-wow-duration="600ms" target="_blank">
                                         <span class="circle">
                                             <span class="icon arrow"></span>
                                         </span>

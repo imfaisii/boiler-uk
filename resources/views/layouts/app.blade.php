@@ -3,6 +3,8 @@
 
 <head>
     @include('partials.front.assets.styles')
+    @stack('extended-css')
+
 </head>
 
 <body>
@@ -20,53 +22,12 @@
 
     <!-- Header
     ============================================= -->
+
     <x-front-partials.header-component />
+
     <!-- End Header -->
 
-    <!-- Start Banner
-    ============================================= -->
-    <x-front-partials.banner-component />
-    <!-- End Banner -->
-
-    <!-- Start Features
-    ============================================= -->
-    <x-front-partials.features-component />
-    <!-- End Features -->
-
-    <!-- Star Main Services
-    ============================================= -->
-    <x-front-partials.main-services-component />
-    <!-- End Main Services Area -->
-
-    <!-- Star About
-    ============================================= -->
-    <x-front-partials.about-component />
-    <!-- End About -->
-
-    {{-- <!-- Start Case Studies Area
-    ============================================= -->
-    <x-front-partials.case-study-component />
-    <!-- End Case Studies Area --> --}}
-
-    <!-- Star Faq
-    ============================================= -->
-    <x-front-partials.faq-component />
-    <!-- End Faq -->
-
-    {{-- <!-- Start Pricing Area
-    ============================================= -->
-    <x-front-partials.pricing-component />
-    <!-- End Pricing Area --> --}}
-
-    <!-- Star Testimonials
-    ============================================= -->
-    <x-front-partials.testimonials-component />
-    <!-- End Testimonials -->
-
-    {{-- <!-- Star Blog
-    ============================================= -->
-    <x-front-partials.blog-component />
-    <!-- End Blog --> --}}
+    @yield('content')
 
     <!-- Star Footer
     ============================================= -->
@@ -74,7 +35,7 @@
     <!-- End Footer-->
 
     @include('partials.front.assets.scripts')
-
+    @stack('extended-js')
 </body>
 
 </html>

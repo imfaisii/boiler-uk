@@ -17,6 +17,12 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    'admin' => [
+        'emails' => [
+            'i160289@nu.edu.pk',
+            'cfaisal009@gmail.com'
+        ]
+    ],
     /*
     |--------------------------------------------------------------------------
     | Application Environment
