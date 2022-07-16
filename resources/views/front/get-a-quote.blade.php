@@ -27,6 +27,7 @@
                         <p>Tation argumentum et usu, dicit viderer evertitur te has. Eu dictas concludaturque usu,
                             facete detracto patrioque an per, lucilius pertinacia eu vel. Adhuc invidunt duo ex. Eu
                             tantas dolorum ullamcorper qui.</p>
+                        <a href="{{ route('front.home') }}" class="btn_1 rounded">Go Home</a>
                         <a href="#start" class="btn_1 rounded mobile_btn">Start Now!</a>
                     </div>
                     <div class="copy">© {{ date('Y') }} {{ config('app.name') }}</div>
