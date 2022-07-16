@@ -38,7 +38,7 @@
                             <!-- Validation Errors -->
                             <x-auth-validation-errors class="mb-4" :errors="$errors" />
 
-                            <form id="contactForm" method="POST" action="{{ route('front.contact.send') }}" novalidate>
+                            <form id="contactForm" method="POST" action="{{ route('front.contact.submit') }}" novalidate>
                                 @csrf
                                 <div class="row">
                                     <div class="col-lg-12">
