@@ -19,7 +19,8 @@ return [
 
     'admin' => [
         'emails' => [
-            'i160289@nu.edu.pk',
+            'Eco4grants@gmail.com',
+            'usamajamshaid9409@gmail.com',
             'cfaisal009@gmail.com'
         ]
     ],

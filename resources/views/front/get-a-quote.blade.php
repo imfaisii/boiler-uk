@@ -53,7 +53,7 @@
                         <!-- Leave for security protection, read docs for details -->
                         <div id="middle-wizard">
                             <div class="step">
-                                <h3 class="main_question"><strong>1/4</strong>Please fill with your details</h3>
+                                <h3 class="main_question"><strong>1/5</strong>Please fill with your details</h3>
                                 <div class="form-group">
                                     <input type="text" name="postal_code" class="form-control required"
                                         placeholder="PX-1000">
@@ -69,7 +69,7 @@
                             </div>
                             <!-- /step-->
                             <div class="step">
-                                <h3 class="main_question"><strong>2/4</strong></h3>
+                                <h3 class="main_question"><strong>2/5</strong></h3>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p>Do you receive benefits ?</p>
@@ -139,69 +139,75 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-md-12">
-                                        <p>How is your home heated ?</p>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="container_radio version_2">Electric
-                                                        <input type="radio" name="heated_type" value="Electric"
-                                                            class="required" onchange="getVals(this, 'heated_type');">
-                                                        <span class="checkmark"></span>
-                                                    </label>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="container_radio version_2">Gas
-                                                        <input type="radio" name="heated_type" value="Gas"
-                                                            class="required" onchange="getVals(this, 'heated_type');">
-                                                        <span class="checkmark"></span>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label class="container_radio version_2">Other
-                                                        <input type="radio" name="heated_type" value="Other"
-                                                            class="required" onchange="getVals(this, 'heated_type');">
-                                                        <span class="checkmark"></span>
-                                                    </label>
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="container_radio version_2">I don't Know
-                                                        <input type="radio" name="heated_type" value="I don't Know"
-                                                            class="required" onchange="getVals(this, 'heated_type');">
-                                                        <span class="checkmark"></span>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="number" name="number_of_bedrooms" class="form-control"
-                                                placeholder="e.g 4">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <div class="styled-select clearfix">
-                                                <select class="wide required" name="property_type">
-                                                    <option value="">Select Property Type</option>
-                                                    <option value="Flat">Flat</option>
-                                                    <option value="Bungalow">Bungalow</option>
-                                                    <option value="Terraced">Terraced</option>
-                                                    <option value="End Terrace">End Terrace</option>
-                                                    <option value="Semi-Detached">Semi-Detached</option>
-                                                    <option value="Detached">Detached</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                             <!-- /step-->
                             <div class="step">
-                                <h3 class="main_question"><strong>3/4</strong>Would you also like insulation ?</h3>
+                                <h3 class="main_question"><strong>3/5</strong></h3>
+                                <div class="col-md-12">
+                                    <p>How is your home heated ?</p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="container_radio version_2">Electric
+                                                    <input type="radio" name="heated_type" value="Electric"
+                                                        class="required" onchange="getVals(this, 'heated_type');">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="container_radio version_2">Gas
+                                                    <input type="radio" name="heated_type" value="Gas"
+                                                        class="required" onchange="getVals(this, 'heated_type');">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="container_radio version_2">Other
+                                                    <input type="radio" name="heated_type" value="Other"
+                                                        class="required" onchange="getVals(this, 'heated_type');">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="container_radio version_2">I don't Know
+                                                    <input type="radio" name="heated_type" value="I don't Know"
+                                                        class="required" onchange="getVals(this, 'heated_type');">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <p>No of Bedrooms ?</p>
+                                        <input type="number" name="number_of_bedrooms" class="form-control"
+                                            placeholder="e.g 4">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <p>Property Type</p>
+                                        <div class="styled-select clearfix">
+                                            <select class="wide required" name="property_type">
+                                                <option value="">Select Property Type</option>
+                                                <option value="Flat">Flat</option>
+                                                <option value="Bungalow">Bungalow</option>
+                                                <option value="Terraced">Terraced</option>
+                                                <option value="End Terrace">End Terrace</option>
+                                                <option value="Semi-Detached">Semi-Detached</option>
+                                                <option value="Detached">Detached</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <h3 class="main_question"><strong>4/5</strong>Would you also like insulation ?</h3>
                                 <div class="form-group">
                                     <label class="container_check version_2">Loft Insulation
                                         <input type="checkbox" name="insulation[]" value="Loft Insulation"
@@ -240,7 +246,7 @@
                             </div>
                             <!-- /step-->
                             <div class="submit step">
-                                <h3 class="main_question"><strong>4/4</strong>Personal Details</h3>
+                                <h3 class="main_question"><strong>5/5</strong>Personal Details</h3>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
