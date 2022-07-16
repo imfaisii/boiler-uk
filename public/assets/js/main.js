@@ -500,3 +500,12 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         });
     });
 });
+
+$("#contactForm").submit(function (e) {
+    e.preventDefault();
+    if ($(this).valid()) {
+        $(this).find("button").prop("disabled", true).text("Please wait...");
+        $(this).find(".spinner").removeClass("d-none");
+        this.submit();
+    }
+});

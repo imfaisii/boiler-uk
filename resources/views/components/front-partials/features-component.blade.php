@@ -12,12 +12,12 @@
                             <div class="info">
                                 <h4>ECO Friendly</h4>
                                 <p>
-                                    Years use place decay sex worth drift point table lasting end article express
-                                    fortune demands own charmed.
+                                    Most eco boilers use high efficiency to provide sufficient heat with minimal heat
+                                    loss, meaning you can save costs while protecting the environment.
                                 </p>
                             </div>
                             <div class="icon">
-                                <img src="{{ asset('assets/img/icon/management.png') }}" alt="Icon">
+                                <img class="resize" src="{{ asset('assets/img/icon/analysis.png') }}" alt="Icon">
                             </div>
                         </div>
                     </div>
@@ -26,10 +26,11 @@
                     <div class="single-item col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="500ms">
                         <div class="item">
                             <div class="info">
-                                <h4>Digital Branding</h4>
+                                <h4>Budget Friendly</h4>
                                 <p>
-                                    Twist use place decay sex worth drift point table lasting end article express
-                                    fortune demands own charmed.
+                                    With the increase of price of electricity the bills are going to touch the sky,
+                                    But our cost effective boilers can reduce the cost of electricity bills of boiler to
+                                    50%.
                                 </p>
                             </div>
                             <div class="icon">
@@ -42,14 +43,14 @@
                     <div class="single-item col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="700ms">
                         <div class="item">
                             <div class="info">
-                                <h4>Web Interactive</h4>
+                                <h4>Multi-National Company</h4>
                                 <p>
-                                    Pairs use place decay sex worth drift point table lasting end article express
-                                    fortune demands own charmed.
+                                    Our company is registered in UK but spread over the globe and multiple cities of
+                                    UK.
                                 </p>
                             </div>
                             <div class="icon">
-                                <img src="{{ asset('assets/img/icon/Interaction.png') }}" alt="Icon">
+                                <img src="{{ asset('assets/img/icon/travel.png') }}" alt="Icon">
                             </div>
                         </div>
                     </div>

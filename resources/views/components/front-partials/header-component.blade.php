@@ -1,11 +1,23 @@
 <header id="header">
 
     <!-- Start Navigation -->
-    <nav class="navbar navbar-default navbar-fixed dark no-background bootsnav">
+    <nav
+        class="navbar navbar-default @if (Route::is('front.home')) navbar-fixed no-background @else navbar-sticky @endif dark bootsnav">
         <div class="container-full">
 
             <!-- Start Atribute Navigation -->
-            <div class="attr-nav">
+            <div class="attr-nav multi-item">
+                <ul class="social">
+                    <li>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
                 <ul>
                     <li class="side-menu">
                         <a href="#">
@@ -23,7 +35,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="{{ route('front.home') }}">
                     <img src="{{ asset('assets/img/logo.png') }}" class="logo" alt="Logo">
                 </a>
             </div>
@@ -33,7 +45,10 @@
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
                     <li>
-                        <a href="#header" class="dropdown-toggle active">Home</a>
+                        <a @if (Route::is('front.home')) href="#header" @else href="{{ route('front.home') }}" @endif
+                            class="dropdown-toggle @if (Route::is('front.home')) active @endif">
+                            Home
+                        </a>
                     </li>
                     <li>
                         <a href="#services" class="dropdown-toggle">Services</a>
@@ -42,10 +57,12 @@
                         <a href="#features" class="dropdown-toggle">Features</a>
                     </li>
                     <li>
-                        <a href="#" class="dropdown-toggle">Contact Us</a>
+                        <a href="{{ route('front.contact') }}" class="dropdown-toggle @if (Route::is('front.contact')) active @endif">Contact Us</a>
                     </li>
                     <li>
-                        <a href="#" class="dropdown-toggle">Get A Quote</a>
+                        <a href="{{ route('front.get-a-quote') }}" class="dropdown-toggle" target="_blank">
+                            Get A Quote
+                        </a>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
@@ -93,6 +110,11 @@
                 <ul class="link">
                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li>
+                        <a href="{{ route('front.get-a-quote') }}" target="_blank">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

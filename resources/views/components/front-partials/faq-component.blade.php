@@ -1,4 +1,4 @@
-<div class="faq-area default-padding-bottom">
+<div class="faq-area default-padding-bottom mt-5">
     <div class="container">
         <div class="faq-items">
             <div class="row">
