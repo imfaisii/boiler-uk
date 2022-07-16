@@ -57,7 +57,8 @@
                         <a href="#features" class="dropdown-toggle">Features</a>
                     </li>
                     <li>
-                        <a href="{{ route('front.contact') }}" class="dropdown-toggle @if (Route::is('front.contact')) active @endif">Contact Us</a>
+                        <a href="{{ route('front.contact') }}"
+                            class="dropdown-toggle @if (Route::is('front.contact')) active @endif">Contact Us</a>
                     </li>
                     <li>
                         <a href="{{ route('front.get-a-quote') }}" class="dropdown-toggle" target="_blank">
@@ -72,7 +73,7 @@
         <div class="side">
             <div class="widget">
                 <a href="#" class="close-side"><i class="icon_close"></i></a>
-                <img src="{{ asset('assets/img/logo.png') }}" alt="Logo">
+                <img src="{{ asset('assets/img/logo.png') }}" alt="Logo" style="width:300px;">
                 <p> We work in close partnership with the UK’s ‘Big Six’ energy suppliers, who are an integral
                     part of the government’s domestic energy efficiency programme known as the Energy Companies
                     Obligation (ECO). The grants cover the entire cost of having all loft rooms insulated to
