@@ -147,24 +147,36 @@
                     <tr>
                         <td bgcolor="#ffffff" align="center"
                             style="padding: 10px 30px 20px 30px; color: #000000; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;">
-                            <p>Name : <b>{{ $details['name'] }}</b></p>
-                            <p>Email : <b>{{ $details['email'] }}</b></p>
-                            <p>Contact Number : <b>{{ $details['phone_number'] }}</b></p>
-                            <p>Postal Code : <b>{{ $details['postal_code'] }}</b></p>
-                            <p>Own Home ? <b>{{ $details['own_home'] }}</b></p>
-                            <p>Boiler Fitted Before 2005 ? <b>{{ $details['before_2005'] }}</b></p>
-                            <p>Have radiators ? <b>{{ $details['radiators'] }}</b></p>
-                            <p>Heated type : <b>{{ $details['heated_type'] }}</b></p>
-                            <p>Number of bedrooms : <b>{{ $details['number_of_bedrooms'] }}</b></p>
-                            <p>Property Type : <b>{{ $details['property_type'] }}</b></p>
-                            <p>Required insulation(s)</p>
-                            <ul>
-                                @forelse ($details['insulation'] as $insulation)
-                                    <li style="color: #000000;">{{ $insulation }}</li>
-                                @empty
-                                    <li style="color: #000000;">No insulation mentioned.</li>
-                                @endforelse
-                            </ul>
+                            <div>
+                                <div style="display: flex;justify-content: space-around;">
+                                    <p>Name : <b>{{ $details['name'] }}</b></p>
+                                    <p>Email : <b>{{ $details['email'] }}</b></p>
+                                </div>
+                                <div style="display: flex;justify-content: space-around;">
+                                    <p>Contact Number : <b>{{ $details['phone_number'] }}</b></p>
+                                    <p>Postal Code : <b>{{ $details['postal_code'] }}</b></p>
+                                </div>
+                                <div style="display: flex;justify-content: space-around;">
+                                    <p>Own Home ? <b>{{ $details['own_home'] }}</b></p>
+                                    <p>Boiler Fitted Before 2005 ? <b>{{ $details['before_2005'] }}</b></p>
+                                </div>
+                                <div style="display: flex;justify-content: space-around;">
+                                    <p>Have radiators ? <b>{{ $details['radiators'] }}</b></p>
+                                    <p>Heated type : <b>{{ $details['heated_type'] }}</b></p>
+                                </div>
+                                <div style="display: flex;justify-content: space-around;">
+                                    <p>Number of bedrooms : <b>{{ $details['number_of_bedrooms'] }}</b></p>
+                                    <p>Property Type : <b>{{ $details['property_type'] }}</b></p>
+                                </div>
+                                <p>Required insulation(s)</p>
+                                <ul>
+                                    @forelse ($details['insulation'] as $insulation)
+                                        <li style="color: #000000;">{{ $insulation }}</li>
+                                    @empty
+                                        <li style="color: #000000;">No insulation mentioned.</li>
+                                    @endforelse
+                                </ul>
+                            </div>
                         </td>
                     </tr>
                     <!-- BULLETPROOF BUTTON -->
