@@ -148,23 +148,23 @@
                         <td bgcolor="#ffffff" align="center"
                             style="padding: 10px 30px 20px 30px; color: #000000; font-family: 'Poppins', sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;">
                             <div>
-                                <div style="display: flex;justify-content: space-around;">
+                                <div>
                                     <p>Name : <b>{{ $details['name'] }}</b></p>
                                     <p>Email : <b>{{ $details['email'] }}</b></p>
                                 </div>
-                                <div style="display: flex;justify-content: space-around;">
+                                <div>
                                     <p>Contact Number : <b>{{ $details['phone_number'] }}</b></p>
                                     <p>Postal Code : <b>{{ $details['postal_code'] }}</b></p>
                                 </div>
-                                <div style="display: flex;justify-content: space-around;">
+                                <div>
                                     <p>Own Home ? <b>{{ $details['own_home'] }}</b></p>
                                     <p>Boiler Fitted Before 2005 ? <b>{{ $details['before_2005'] }}</b></p>
                                 </div>
-                                <div style="display: flex;justify-content: space-around;">
+                                <div>
                                     <p>Have radiators ? <b>{{ $details['radiators'] }}</b></p>
                                     <p>Heated type : <b>{{ $details['heated_type'] }}</b></p>
                                 </div>
-                                <div style="display: flex;justify-content: space-around;">
+                                <div>
                                     <p>Number of bedrooms : <b>{{ $details['number_of_bedrooms'] }}</b></p>
                                     <p>Property Type : <b>{{ $details['property_type'] }}</b></p>
                                 </div>
