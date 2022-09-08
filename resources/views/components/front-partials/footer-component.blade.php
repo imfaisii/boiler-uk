@@ -76,8 +76,7 @@
                                 </li>
                                 <li>
                                     <p>Contact</p>
-                                    <strong>+92 349 4684544 </strong>
-                                    <strong>+44 161 621 9970</strong>
+                                    <strong>+44 161 706 1605</strong>
                                 </li>
                             </ul>
                         </div>

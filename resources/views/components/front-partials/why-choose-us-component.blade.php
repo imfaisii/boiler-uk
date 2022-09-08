@@ -14,11 +14,7 @@
                     insulation grants to those who receive certain means-tested benefits. It aims to reduce fuel poverty
                     amongst low-income households by ensuring that heat is generated as efficiently as possible and is
                     prevented from escaping from the home.
-                    The latest phase will run until March 2022 and gives households that missed out on the initial two
-                    ECO programs an opportunity to benefit from warm housing policies. Under previous ECO schemes, grant
-                    funding was given for gas boilers, oil boilers, LPG boilers, and electric heaters. ECO3 is limited
-                    to gas boilers only.
-                    However, the main purpose of The Affordable Warmth Obligation is to take fuel poverty and help
+                    The main purpose of The Affordable Warmth Obligation is to take fuel poverty and help
                     vulnerable families lower gas bills.
                     Old boilers significantly contribute to household expenses. Installing an energy-efficient gas
                     boiler can help to reduce gas bills by £100-£300 a year

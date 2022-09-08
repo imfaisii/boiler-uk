@@ -31,7 +31,7 @@
                                 </p>
                                 <div class="thumb-box">
                                     <div class="thumb">
-                                        <img src="{{ asset('assets/img/ceo.png') }}" alt="Thumb">
+                                        <img src="{{ asset('assets/img/100x100.png') }}" alt="Thumb">
                                     </div>
                                 </div>
                                 <h5>Usama Jamshaid</h5>

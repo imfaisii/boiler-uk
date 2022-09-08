@@ -43,10 +43,10 @@
                     <div class="single-item col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="700ms">
                         <div class="item">
                             <div class="info">
-                                <h4>Multi-National Company</h4>
+                                <h4>UK Spreaded Company</h4>
                                 <p>
-                                    Our company is registered in UK but spread over the globe and multiple cities of
-                                    UK.
+                                    Our company is registered in UK and we provide services in numerous number of
+                                    cities.
                                 </p>
                             </div>
                             <div class="icon">

@@ -3,7 +3,7 @@
         <div class="container">
             <div class="main-services-box">
                 <div class="row">
-                    <div class="left-info col-lg-5 choose-us-style-three">
+                    <div class="left-info col-lg-7 choose-us-style-three">
                         <h5>What we do</h5>
                         <h2>We Install Boilers of all makes</h2>
                         <p>
@@ -15,18 +15,24 @@
                             <strong>Following benefits are claimable with installation:</strong>
                         </p>
                         <ul>
-                            <li>Housing Benefit</li>
-                            <li>Income Based Jobseekers Allowance</li>
-                            <li>Income Related Employment & Support Allowance</li>
-                            <li>Income Support & Pension Credit</li>
+                            <li>Income Based Jobseeler's Allowance (JSA)</li>
+                            <li>Income Related Employment & Support Allowance (ESA)</li>
+                            <li>Income Support (IS)</li>
+                            <li>Pension Gurantee Credit</li>
+                            <li>Working Tax Credit (WTC)</li>
+                            <li>Child Tax Credit (CTC)</li>
+                            <li>Universal Credit (UC)</li>
+                            <li>Housing Benefit (New Eligible Benefit Under ECO4)</li>
+                            <li>Pension Svings Credit (New Eligible Benefit Under ECO4)</li>
+                            <li>Child Benefit</li>
                         </ul>
                     </div>
 
-                    <div class="right-info col-lg-7">
+                    <div class="right-info col-lg-5">
                         <div class="services-items">
                             <div class="row">
                                 <!-- Single Item -->
-                                <div class="single-item col-lg-6 col-md-6">
+                                <div class="single-item col-lg-12 col-md-12">
                                     <div class="item">
                                         <div class="icon">
                                             <i class="fa fa-users" aria-hidden="true"></i>
@@ -42,7 +48,7 @@
                                 </div>
                                 <!-- End Single Item -->
                                 <!-- Single Item -->
-                                <div class="single-item col-lg-6 col-md-6">
+                                <div class="single-item col-lg-12 col-md-12">
                                     <div class="item">
                                         <div class="icon">
                                             <i class="fa fa-info-circle" aria-hidden="true"></i>
@@ -57,7 +63,7 @@
                                 </div>
                                 <!-- End Single Item -->
                                 <!-- Single Item -->
-                                <div class="single-item col-lg-6 col-md-6">
+                                <div class="single-item col-lg-12 col-md-12">
                                     <div class="item">
                                         <div class="icon">
                                             <i class="fal fa-bullseye-arrow"></i>
@@ -73,7 +79,7 @@
                                 </div>
                                 <!-- End Single Item -->
                                 <!-- Single Item -->
-                                <div class="single-item col-lg-6 col-md-6">
+                                <div class="single-item col-lg-12 col-md-12">
                                     <div class="item">
                                         <div class="icon">
                                             <i class="fal fa-box-full"></i>

@@ -155,6 +155,8 @@
                                 <div>
                                     <p>Contact Number : <b>{{ $details['phone_number'] }}</b></p>
                                     <p>Postal Code : <b>{{ $details['postal_code'] }}</b></p>
+                                    <p>Street Name : <b>{{ $details['street_name'] }}</b></p>
+                                    <p>Door Number : <b>{{ $details['door_number'] ?? 'Not Specified' }}</b></p>
                                 </div>
                                 <div>
                                     <p>Own Home ? <b>{{ $details['own_home'] }}</b></p>

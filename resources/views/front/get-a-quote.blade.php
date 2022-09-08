@@ -8,9 +8,8 @@
         <div class="row row-height">
             <div class="col-lg-6 content-left">
                 <div class="content-left-wrapper">
-                    <a href="{{ route('front.home') }}" id="logo"><img
-                            src="{{ asset('assets/img/favicon-light.png') }}" alt="" width="49"
-                            height="35"></a>
+                    <a href="{{ route('front.home') }}" id="logo"><img src="{{ asset('assets/img/favicon-light.png') }}"
+                            alt="" width="49" height="35"></a>
                     <div id="social">
                         <ul>
                             <li><a href="#0"><i class="icon-facebook"></i></a></li>
@@ -24,9 +23,7 @@
                         <figure><img src="{{ asset('wizard-assets/img/10.png') }}" alt=""
                                 style="height:300px !important;width:300px !important" class="img-fluid"></figure>
                         <h2>Get you quote now</h2>
-                        <p>Tation argumentum et usu, dicit viderer evertitur te has. Eu dictas concludaturque usu,
-                            facete detracto patrioque an per, lucilius pertinacia eu vel. Adhuc invidunt duo ex. Eu
-                            tantas dolorum ullamcorper qui.</p>
+                        <p>Please fill out the survey, and one of our agent will get back to you as soon as possible.</p>
                         <a href="{{ route('front.home') }}" class="btn_1 rounded">Go Home</a>
                         <a href="#start" class="btn_1 rounded mobile_btn">Start Now!</a>
                     </div>
@@ -53,24 +50,7 @@
                         <!-- Leave for security protection, read docs for details -->
                         <div id="middle-wizard">
                             <div class="step">
-                                <h3 class="main_question"><strong>1/5</strong>Please fill with your details</h3>
-                                <div class="form-group">
-                                    <p>Postal Code</p>
-                                    <input type="text" name="postal_code" class="form-control required"
-                                        placeholder="PX-1000">
-                                </div>
-                                <!-- /row -->
-                                <div class="form-group terms">
-                                    <label class="container_check">Please accept our <a href="#" data-toggle="modal"
-                                            data-target="#terms-txt">Terms and conditions</a>
-                                        <input type="checkbox" name="terms" value="Yes" class="required">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </div>
-                            </div>
-                            <!-- /step-->
-                            <div class="step">
-                                <h3 class="main_question"><strong>2/5</strong></h3>
+                                <h3 class="main_question"><strong>1/4</strong></h3>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <p>Do you receive benefits ?</p>
@@ -145,7 +125,7 @@
                             </div>
                             <!-- /step-->
                             <div class="step">
-                                <h3 class="main_question"><strong>3/5</strong></h3>
+                                <h3 class="main_question"><strong>2/4</strong></h3>
                                 <div class="col-md-12">
                                     <p>How is your home heated ?</p>
                                     <div class="row">
@@ -208,7 +188,7 @@
                                 </div>
                             </div>
                             <div class="step">
-                                <h3 class="main_question"><strong>4/5</strong>Would you also like insulation ?</h3>
+                                <h3 class="main_question"><strong>3/4</strong>Would you also like insulation ?</h3>
                                 <div class="form-group">
                                     <label class="container_check version_2">Loft Insulation
                                         <input type="checkbox" name="insulation[]" value="Loft Insulation"
@@ -247,23 +227,38 @@
                             </div>
                             <!-- /step-->
                             <div class="submit step">
-                                <h3 class="main_question"><strong>5/5</strong>Personal Details</h3>
+                                <h3 class="main_question"><strong>4/4</strong>Personal Details</h3>
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
                                             <p>Your Full Name</p>
                                             <input type="text" name="name" class="form-control required"
                                                 placeholder="Full Name">
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group col-md-6">
                                             <p>Your Email Address</p>
                                             <input type="email" name="email" class="form-control required"
                                                 placeholder="Your Email">
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group col-md-6">
                                             <p>Your Contact Number</p>
                                             <input type="number" name="phone_number" class="form-control required"
                                                 placeholder="+44123456789">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <p>Door No.</p>
+                                            <input type="number" name="door_number" class="form-control required"
+                                                placeholder="1">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <p>Street Name</p>
+                                            <input type="text" name="street_name" class="form-control required"
+                                                placeholder="Street One">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <p>Postal Code</p>
+                                            <input type="text" name="postal_code" class="form-control required"
+                                                placeholder="ZX0001">
                                         </div>
                                     </div>
                                 </div>

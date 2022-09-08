@@ -25,7 +25,8 @@ class QuoteRequest extends FormRequest
     {
         return [
             "postal_code" => "required|string",
-            "terms" => "required|in:Yes,No",
+            "street_name" => "required|string",
+            "door_number" => "nullable|numeric",
             "benefits" => "required|in:Yes,No",
             "own_home" => "required|in:Yes,No",
             "before_2005" => "required|in:Yes,No",

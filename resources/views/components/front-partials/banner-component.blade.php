@@ -10,7 +10,7 @@
                                     <h2 class="wow fadeInDown" data-wow-duration="400ms">Get a free boiler</h2>
                                     <p class="wow fadeInUp" data-wow-duration="500ms">
                                         <strong>Government Funded Boiler</strong>
-                                    <p>ECO3 Energy Solutions operate a government funded scheme providing boiler grants
+                                    <p>ECO4 Energy Solutions operate a government funded scheme providing boiler grants
                                         to qualifying properties.
                                     </p>
                                     </p>
