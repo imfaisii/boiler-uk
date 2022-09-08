@@ -21,7 +21,8 @@ return [
         'emails' => [
             'Eco4grants@gmail.com',
             'usamajamshaid9409@gmail.com',
-            'cfaisal009@gmail.com'
+            'cfaisal009@gmail.com',
+            'admin@eco4enerygysolutions.co.uk'
         ]
     ],
     /*
