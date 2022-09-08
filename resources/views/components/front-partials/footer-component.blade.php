@@ -32,13 +32,13 @@
                         <h4 class="widget-title">Quick Links</h4>
                         <ul>
                             <li>
-                                <a href="#header">Home</a>
+                                <a href="/#header">Home</a>
                             </li>
                             <li>
-                                <a href="#services">Services</a>
+                                <a href="/#services">Services</a>
                             </li>
                             <li>
-                                <a href="#testimonials">Testimonials</a>
+                                <a href="/#testimonials">Testimonials</a>
                             </li>
                         </ul>
                     </div>
