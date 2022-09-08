@@ -229,37 +229,35 @@
                             <div class="submit step">
                                 <h3 class="main_question"><strong>4/4</strong>Personal Details</h3>
                                 <div class="row">
-                                    <div class="row">
-                                        <div class="form-group col-md-6">
-                                            <p>Your Full Name</p>
-                                            <input type="text" name="name" class="form-control required"
-                                                placeholder="Full Name">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <p>Your Email Address</p>
-                                            <input type="email" name="email" class="form-control required"
-                                                placeholder="Your Email">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <p>Your Contact Number</p>
-                                            <input type="number" name="phone_number" class="form-control required"
-                                                placeholder="+44123456789">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <p>Door No.</p>
-                                            <input type="number" name="door_number" class="form-control required"
-                                                placeholder="1">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <p>Street Name</p>
-                                            <input type="text" name="street_name" class="form-control required"
-                                                placeholder="Street One">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <p>Postal Code</p>
-                                            <input type="text" name="postal_code" class="form-control required"
-                                                placeholder="ZX0001">
-                                        </div>
+                                    <div class="form-group col-md-6">
+                                        <p>Your Full Name</p>
+                                        <input type="text" name="name" class="form-control required"
+                                            placeholder="Full Name">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <p>Your Email Address</p>
+                                        <input type="email" name="email" class="form-control required"
+                                            placeholder="Your Email">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <p>Your Contact Number</p>
+                                        <input type="number" name="phone_number" class="form-control required"
+                                            placeholder="+44123456789">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <p>Door No.</p>
+                                        <input type="number" name="door_number" class="form-control required"
+                                            placeholder="1">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <p>Street Name</p>
+                                        <input type="text" name="street_name" class="form-control required"
+                                            placeholder="Street One">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <p>Postal Code</p>
+                                        <input type="text" name="postal_code" class="form-control required"
+                                            placeholder="ZX0001">
                                     </div>
                                 </div>
                             </div>
