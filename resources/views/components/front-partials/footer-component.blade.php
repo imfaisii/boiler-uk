@@ -72,7 +72,7 @@
                                 </li>
                                 <li>
                                     <p>Email</p>
-                                    <strong>https://eco4enerygysolutions.co.uk/</strong>
+                                    <strong>admin@eco4energygrants.co.uk</strong>
                                 </li>
                                 <li>
                                     <p>Contact</p>
